@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penjualan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1><a href="./index.html">PROJECT1</a> <br>
+    <a href="./project2.html">PROJECT2</a></h1>
+    <div class="container">
+        <form id="sales-form">
+            <label for="product">Produk:</label>
+            <input type="text" id="product"required>
+            <label for="amount">Harga:</label>
+            <input type="number" id="amount" required>
+            <button type="button" onclick="addSale()">Tambah Penjualan</button>
+        </form>
+        <div id="sales-list">
+            <h2>Daftar Penjualan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produk</th>
+                        <th>Harga</th>
+                        <th>Hapus</th>
+                    </tr>
+                </thead>
+                <tbody id="sales-table"></tbody>
+            </table>
+        </div>
+        <div id="total">
+            <h2>Total Harga</h2>
+            <p id="total-amount">0</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

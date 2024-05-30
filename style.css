@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+form{
+    margin: 20px 0;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    background-color: aquamarine;
+    color: brown;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 1px solid whitesmoke;
+    text-align: left;
+}
+
+th, td{
+    padding: 10px;
+}
+
+#total{
+    margin-top: 20px;
+    background-color: grey;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#total-amount{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#sales-list h2{
+    margin-top: 0;
+}
+.sales-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-radius: 1px solid grey;
+}
+
+.sale-item:last-child{
+    border-bottom: none;
+}
+.sales-item strong{
+    font-weight: bold;
+}
+.sale-item button{
+    background-color: chocolate;
+    color: bisque;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition:  background-color 0.3s ease;
+}
+.sale-item button:hover{
+    background-color: blanchedalmond;
+}
